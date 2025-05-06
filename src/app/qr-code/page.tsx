@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { QRCode } from 'qrcode.react';
+import { QRCodeSVG } from 'qrcode.react'; // Changed from QRCode to QRCodeSVG
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -95,7 +95,7 @@ export default function QrCodePage() {
              <CardDescription>Scan this QR code to send {amount} SOL to {wallet.address}</CardDescription>
           </CardHeader>
           <CardContent className="p-6">
-            <QRCode
+            <QRCodeSVG // Changed from QRCode to QRCodeSVG
               value={qrValue}
               size={256} // Adjust size as needed
               level={"H"} // Error correction level
