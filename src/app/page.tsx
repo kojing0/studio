@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[calc(100vh-10rem)] space-y-8 text-center">
       <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-5xl md:text-6xl">
-        Welcome to SolanaPay
+        Welcome to YataiPay
       </h1>
       <p className="max-w-2xl text-lg text-muted-foreground sm:text-xl">
         The seamless way to make and accept payments using Solana blockchain technology via simple QR codes.

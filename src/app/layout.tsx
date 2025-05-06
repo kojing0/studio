@@ -27,7 +27,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'SolanaPay',
+  title: 'YataiPay',
   description: 'Pay with Solana using QR codes',
 };
 
@@ -43,7 +43,7 @@ export default function RootLayout({
           <Sidebar>
             <SidebarHeader className="flex items-center justify-between">
               <Link href="/">
-                <h1 className="text-xl font-semibold text-primary">SolanaPay</h1>
+                <h1 className="text-xl font-semibold text-primary">YataiPay</h1>
               </Link>
             </SidebarHeader>
             <SidebarContent>
@@ -79,7 +79,7 @@ export default function RootLayout({
             <header className="flex items-center p-4 border-b md:hidden">
                  <SidebarTrigger />
                  <Link href="/" className="ml-4">
-                    <h1 className="text-xl font-semibold text-primary">SolanaPay</h1>
+                    <h1 className="text-xl font-semibold text-primary">YataiPay</h1>
                  </Link>
             </header>
             <main className="flex-1 p-4 md:p-6">{children}</main>
